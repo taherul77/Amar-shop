@@ -1,9 +1,14 @@
+import Banner from "./lib/components/app/Page/Banner";
 
 
-export default function Home() {
+const Home = async () => {
+
+
   return (
-  <div>
-    hi    
-  </div>
-  )
-}
+    <div className="bg-white">
+      <Banner></Banner>
+    </div>
+  );
+};
+
+export default Home;
